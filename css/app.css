@@ -37,8 +37,15 @@ padding-top:1em;
   	color: #d98477;
   }
 
+.sun{
+  width: 227.75px;
+  height:268px;
+  background: url(../img/sun.png);
+  animation: run 1s steps(4) infinite;
+}
+@keyframes run {100% {background-position: -911px;}
 
-
+}
 
 
 }
