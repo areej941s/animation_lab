@@ -1,0 +1,42 @@
+
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: #ccffff;
+
+}
+h1{font-family: 'Indie Flower', cursive;}
+
+h2{font-family: 'Indie Flower', cursive;
+
+}
+
+p{font-size: 25px;
+padding-top:1em;
+}
+
+
+.mainnav{ font-size: 20px;
+  margin-right: 1em;
+
+}
+
+  a:link {
+  	color: #003300;
+
+  }
+
+  a:visited {
+  	color: #003300;
+  }
+
+  a:hover {
+  	color: #ffff33;
+  }
+
+  a:active {
+  	color: #d98477;
+  }
+
+
+
+}
