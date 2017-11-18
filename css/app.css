@@ -21,13 +21,12 @@ padding-top:1em;
 }
 
 
-.mainnav{ font-size: 35px;
+.mainnav{ font-size: 50px;
   margin-right: 1em;
-  color:#ffffff;
+
 
 }
-
-  a:link {
+a:link {
   	color: #ffffff;
 
   }
@@ -46,20 +45,42 @@ a:hover {
   }
  .home{
    padding-top: 3rem;
-    width: 100px;
-    height: 100px;
-    color: #ffff33;
+   width: 100px;
+   height: 100px;
+
+    color: #ffffff;
     -webkit-animation-name: home; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: home;
     animation-duration: 4s;
 }
 @keyframes home {
-    0%   {color:#ffff00;}
-    25%  {color:#ffffff;}
-    50%  {color:#ffff00;}
-    100% {color:#ffffff;}
+    0%   {color:#ffffff;}
+    25%  {color:#ffff00;}
+    50%  {color:#ffffff;}
+    100% {color:#ffff00;}
 }
+
+
+
+.castle{
+    width: 500px;
+    height: 500px;
+
+    -webkit-animation-name: castle; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: castle;
+    animation-duration: 4s;
+}
+@keyframes castle {
+
+    from {  width: 600px;
+      height: 600px;}
+    to {  width: 500px;
+      height: 500px;}}
+
+
+
 
 
     .far{
@@ -68,16 +89,15 @@ a:hover {
         height: 200px;
        color: #ffff00;
         -webkit-animation-name: far; /* Safari 4.0 - 8.0 */
-        -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
         animation-name: far;
         animation-duration: 3s;
     animation-direction: reverse;
     }
 
-
 @keyframes far{
    from {color: #ffffff;font-size:50px;}
-   to {;color: #ffff00;font-size:150px;}
+   to {;color: #ffff00;font-size:200px;}
 }
 .long{
   padding-top: 6rem;
@@ -92,7 +112,7 @@ a:hover {
 }
 @keyframes long
 {from {color: #ffffff;font-size:50px;}
-to {;color: #ffff00;font-size:150px;}
+to {;color: #ffff00;font-size:200px;}
 }
 
 .sun{
@@ -108,26 +128,19 @@ to {;color: #ffff00;font-size:150px;}
 .december{
     width: 100px;
     height: 100px;
-    font-size: 170px;
+    font-size: 200px;
+position: relative;
 
-    position: relative;
-    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-    animation-name: example;
+    animation-name: december;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 
-@keyframes example {
-    from {top: 0px;}
-    to {top: 200px; color: #ffffff;}
-}
-
-
-}
 @keyframes december {
-    from {top: 0px;font-size: 30px;}
-    to {top: 200px; color:#ffffff;}
+    from {top: 0px;}
+    to {top: 400px; color: #ffffff;}
+}
+
+
 }
