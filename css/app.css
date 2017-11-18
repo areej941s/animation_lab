@@ -1,35 +1,34 @@
 
 body{
-  font-family: 'Indie Flower', cursive;
-  background-color: #ccffff;
+  font-family:'Tangerine', cursive;
+
+  background-color: #0a0a8b;
+
 
 }
-h1{font-family: 'Indie Flower', cursive;}
+h1{font-family: 'Tangerine', cursive;}
 
-h2{font-family: 'Indie Flower', cursive;
+h2{font-family: 'Tangerine', cursive;
 
 }
 
-p{font-size: 25px;
+p{font-size: 35px;
 padding-top:1em;
+
 }
 
 
-.mainnav{ font-size: 20px;
+.mainnav{ font-size: 35px;
   margin-right: 1em;
+  color:#ffffff;
 
 }
 
   a:link {
-  	color: #003300;
+  	color: #ffffff;
 
   }
-
-  a:visited {
-  	color: #003300;
-  }
-
-  a:hover {
+a:hover {
   	color: #ffff33;
   }
 
@@ -37,15 +36,95 @@ padding-top:1em;
   	color: #d98477;
   }
 
+  .december{
+    padding-top: 6rem;
+    color:#ffff00;
+    font-size: 35px
+  }
+ .home{
+   padding-top: 3rem;
+    width: 100px;
+    height: 100px;
+    color: #ffff33;
+    -webkit-animation-name: home; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: home;
+    animation-duration: 4s;
+}
+@keyframes home {
+    0%   {color:#ffff00;}
+    25%  {color:#ffffff;}
+    50%  {color:#ffff00;}
+    100% {color:#ffffff;}
+}
+
+
+    .far{
+      padding-top: 6rem;
+      width: 200px;
+        height: 200px;
+       color: #ffff00;
+        -webkit-animation-name: far; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+        animation-name: far;
+        animation-duration: 3s;
+    animation-direction: reverse;
+    }
+
+
+@keyframes far{
+   from {color: #ffffff;font-size:50px;}
+   to {;color: #ffff00;font-size:150px;}
+}
+.long{
+  padding-top: 6rem;
+  width: 200px;
+    height: 200px;
+   color: #ffff00;
+    -webkit-animation-name: long; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: long;
+    animation-duration: 6s;
+
+}
+@keyframes long
+{from {color: #ffffff;font-size:50px;}
+to {;color: #ffff00;font-size:150px;}
+}
+
 .sun{
-  width: 227.75px;
-  height:268px;
-  background: url(../img/sun.png);
-  animation: run 1s steps(4) infinite;
+
+     width: 227.75px;
+     height:268px;
+     background: url(../img/sun.png);
+     -webkit-animation-name: sun;
+     animation: run 1s steps(5) infinite;
+   }
+@keyframes run {100% {background-position: -911px;}}
+
+.december{
+    width: 100px;
+    height: 100px;
+    font-size: 200px;
+
+    position: relative;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
-@keyframes run {100% {background-position: -911px;}
 
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 200px; color: #ffffff;}
 }
 
 
+}
+@keyframes december {
+    from {top: 0px;font-size: 30px;}
+    to {top: 200px; color:#ffffff;}
 }
