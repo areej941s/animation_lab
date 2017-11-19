@@ -7,22 +7,30 @@ body{
 
 }
 h1{font-family: 'Tangerine', cursive;
-font-size: 75px;}
+font-size: 75px;
+background-color: #000033;
+text-align: center;}
+
 
 h2{font-family: 'Tangerine', cursive
 ;font-size: 70px;
+background-color: #000033;
 
 }
 
 p{font-size: 65px;
 padding-top:1em;
+background-color: #000033;
+text-align: center;
+
 
 
 }
 
 
-.mainnav{ font-size: 50px;
+.mainnav{ font-size: 60px;
   margin-right: 1em;
+  color: white;
 
 
 }
@@ -47,6 +55,8 @@ a:hover {
    padding-top: 3rem;
    width: 100px;
    height: 100px;
+   
+
 
     color: #ffffff;
     -webkit-animation-name: home; /* Safari 4.0 - 8.0 */
@@ -115,15 +125,18 @@ a:hover {
 to {;color: #ffff00;font-size:200px;}
 }
 
-.sun{
+.wings{
+  width: 400px;
+      height: 300px;
+      background: url("../img/purplewings.png");
+-webkit-animation-name: wings;
+     animation: play .8s steps(5) infinite;
 
-     width: 227.75px;
-     height:268px;
-     background: url(../img/sun.png);
-     -webkit-animation-name: sun;
-     animation: run 1s steps(5) infinite;
    }
-@keyframes run {100% {background-position: -911px;}}
+
+@keyframes play {
+    100% { background-position: -2000px; }
+}
 
 .december{
     width: 100px;
