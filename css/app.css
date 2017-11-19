@@ -129,6 +129,7 @@ to {;color: #ffff00;font-size:200px;}
 .wings{
   width: 400px;
       height: 300px;
+
       background: url("../img/purplewings.png");
 -webkit-animation-name: wings;
      animation: play .8s steps(5) infinite;
@@ -138,6 +139,27 @@ to {;color: #ffff00;font-size:200px;}
 @keyframes play {
     100% { background-position: -2000px; }
 }
+
+
+.bluewings{
+  width: 700px;
+      height: 400px;
+      margin-left:4em;
+
+      background: url("../img/bluewings.png");
+-webkit-animation-name: bluewings;
+     animation: play .8s steps(4) infinite;
+
+   }
+
+@keyframes play {
+    100% { background-position: -2000px; }
+}
+
+
+
+
+
 
 .december{
     width: 100px;
