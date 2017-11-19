@@ -9,15 +9,21 @@ body{
 h1{font-family: 'Tangerine', cursive;
 font-size: 75px;
 background-color: #000033;
-text-align: center;}
+text-align: center;
+}
 
 
 
 
-p{font-size: 65px;
-padding-top:1em;
+
+p{font-size: 60px;
+padding-top:.5em;
+padding-bottom: .5em;
+padding-left: .5em;
+padding-right: .5em;
 background-color: #000033;
 text-align: center;
+
 
 
 
@@ -26,6 +32,7 @@ text-align: center;
 
 .mainnav{ font-size: 60px;
   margin-right: 1em;
+  background-color:#000033;
   color: white;
 
 
@@ -52,10 +59,7 @@ a:hover {
    padding-top: 7rem;
    width: 100px;
    height: 100px;
-
-
-
-    color: #ffffff;
+color: #ffffff;
     -webkit-animation-name: home; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: home;
