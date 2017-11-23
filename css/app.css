@@ -4,13 +4,13 @@ body{
 
   background-color: #0a0a8b;
 
-
 }
 
 .mainnav{ font-size: 60px;
   margin-right: 1em;
   background-color:#000033;
   color: white;
+  position: relative;
 
 }
 
@@ -39,6 +39,7 @@ a:hover {
 .castle{
     width: 400px;
     height: 400px;
+    margin-left: 100px;
 
     -webkit-animation-name: castle; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
@@ -121,6 +122,8 @@ to {;color: #ffff00;font-size:200px;}
   width: 100px;
   height: 100px;
 color: #ffffff;
+
+
    -webkit-animation-name: home; /* Safari 4.0 - 8.0 */
    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
    animation-name: home;
@@ -134,7 +137,8 @@ color: #ffffff;
 }
 
 
-h1{font-family: 'Tangerine', cursive;
+h1
+{font-family: 'Tangerine', cursive;
 font-size: 75px;
 background-color: #000033;
 text-align: center;
